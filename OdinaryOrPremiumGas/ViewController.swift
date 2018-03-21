@@ -9,10 +9,22 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var ordinaryField: UITextField!
+    @IBOutlet weak var premiumField: UITextField!
+    
+    @IBAction func calculateButton(_ sender: Any) {
+        
+        
+        
+    }
+    
+    @IBOutlet weak var labelResult: UILabel!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
     }
 
     override func didReceiveMemoryWarning() {
